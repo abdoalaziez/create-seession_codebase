@@ -33,7 +33,7 @@ const login = async (req, res) => {
       });
     }
 
-    // create auser login token (using JWT)
+    // create a user login token (using JWT)
     const payload = {
       id: user._id,
       firstName: user.firstName,
